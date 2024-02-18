@@ -4,10 +4,16 @@
   bottom: 0;
   top: 55px;
   background-color: rgb(15,15,15);
-  width: 172px;
+  width: 230px;
   z-index: 200;
   padding-top: 5px;
+  padding-left: 5px;
   color: aliceblue;
+  overflow:scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .icons{
@@ -35,10 +41,11 @@
 
 .sidebar-link {
   height: 40px;
-  width: 180px;
+  width: 200px;
   display: grid;
   grid-template-columns: 60px 1fr;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .sidebar-link:hover {
@@ -63,7 +70,7 @@
 
 .line{
   height: 0.1px;
-  width: 180px;
+  width: 200px;
   background-color: rgba(106, 106, 106, 0.5);
   margin-top: 10px;
 }
