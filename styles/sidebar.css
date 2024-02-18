@@ -1,0 +1,78 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: rgb(15,15,15);
+  width: 172px;
+  z-index: 200;
+  padding-top: 5px;
+  color: aliceblue;
+}
+
+.icons{
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  padding-left: 24px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+}
+
+
+.icon-name{
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+}
+
+.icon-fun{
+  font-size: 14px;
+}
+
+
+.sidebar-link {
+  height: 40px;
+  width: 180px;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(39,39,39);
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
+
+
+.sub-channel{
+  border-radius: 40px;
+}
+
+
+.line{
+  height: 0.1px;
+  width: 180px;
+  background-color: rgba(106, 106, 106, 0.5);
+  margin-top: 10px;
+}
+
+.sidebar-title{
+  color: aliceblue;
+  margin-top: 12px;
+  margin-left: 18px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  width: 150px;
+}
